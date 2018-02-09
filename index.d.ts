@@ -1,8 +1,8 @@
 import * as React from "react";
 
-export default class Gallery extends React.Component<Props> {}
+declare class Gallery extends React.Component<Props> {}
 
-export type ImageOptions = {
+declare type ImageOptions = {
   src:               string;
   thumbnail:         string;
   thumbnailWidth:    number;
@@ -16,7 +16,7 @@ export type ImageOptions = {
   orientation?:      number;
 };
 
-export type Props = {
+declare type Props = {
   images:                ImageOptions[];
   id?:                   string;
   enableImageSelection?: boolean;
@@ -32,3 +32,5 @@ export type Props = {
   tileViewportStyle?:    () => void;
   thumbnailStyle?:       () => void;
 }
+
+export = Gallery;
