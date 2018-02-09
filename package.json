@@ -1,0 +1,26 @@
+{
+  "name": "@types/react-grid-gallery",
+  "version": "1.0.0",
+  "description": "Typescript definition for react-grid-gallery",
+  "main": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottoasis/types-react-grid-gallery.git"
+  },
+  "keywords": [
+    "Typescript",
+    "React"
+  ],
+  "author": "Scott WANG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottoasis/types-react-grid-gallery/issues"
+  },
+  "homepage": "https://github.com/scottoasis/types-react-grid-gallery#readme",
+  "devDependencies": {
+    "@types/react": "^16.0.36"
+  }
+}
